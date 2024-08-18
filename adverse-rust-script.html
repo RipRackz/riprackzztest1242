@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adverse Rust Script</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.sellix.io/static/js/embed.js"></script> <!-- Sellix Embed Script -->
+</head>
+<body>
+    <div id="particle-container"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="terms-of-service.html">Terms Of Service</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="https://discord.gg/adverse" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <!-- Product Section -->
+    <div class="product-section unified-section">
+        <div class="product-info">
+            <img src="assets/adverse-blue.png" alt="Adverse Rust Script" class="product-image">
+            <h2>Adverse Rust Script</h2>
+            <p class="price">$15 - 1 Month</p>
+            <p class="price">$25 - 3 Months</p>
+            <p class="price">$46 - Lifetime</p>
+            <a href="#" class="btn purchase-btn" id="purchase-btn">Purchase Now →</a>
+        </div>
+        <div class="product-details">
+            <div class="video-container">
+                <iframe width="420" height="250" src="https://www.youtube.com/embed/ugPolYWdgeI" 
+                    title="Adverse Rust Script" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+            <div class="details-text">
+                <p>Check the <a href="https://adversestatus.statuspage.io" target="_blank">Status</a> of the product before purchasing</p>
+                <h3>Requirements:</h3>
+                <ul>
+                    <li>Windows 10 or 11</li>
+                    <li>Windows Defender needs to be disabled</li>
+                    <li>Latest Redistributables Installed</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Purchase Options Modal -->
+    <div id="purchase-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Select Purchase Option</h2>
+            <div class="purchase-options">
+                <button class="option-btn" data-sellix-product="6601bbee99a21">Month</button>
+                <button class="option-btn" data-sellix-product="66bb8cbf549b7">3 Months</button>
+                <button class="option-btn" data-sellix-product="6601bc2cbac1a">Lifetime</button>
+            </div>
+            <p class="discord-text">For other payment methods, join the <a href="https://discord.gg/adverse" target="_blank">Discord</a>!</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
